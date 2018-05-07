@@ -30,14 +30,11 @@ var sayac = 0;
 sayi = Math.round(Math.random() * 100);
 console.log(sayi)
      
-    var text = ""
-var i = 0;
-
-do {
-    text += "bir sayi giriniz " + i;
-    i++;
-}
-while (i < 100);  
+  do {
+sayac++;
+tahmin = Number(prompt("Sayı tahmininiz nedir ? "));
+console.log(tahmin);
+if (tahmin === 0) 
 
 document.getElementById("sayi").innerHTML = text;
 
